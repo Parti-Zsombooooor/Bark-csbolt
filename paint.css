@@ -11,7 +11,7 @@
     text-align: center;
 }
 .container{
-    
+    background-color: white;
 }
 .paintpic{
     width:80px ;
@@ -33,4 +33,22 @@
     height: 70px;
     background-color: rgb(172, 3, 3);
     border: 1px darkred;
+}
+.paint4{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(92, 1, 1) ;
+}
+.paint5{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(68, 26, 2);
+}
+.paint6{
+    width: 100%;
+    height: 70px;
+    background-color:green;
+}
+.paint7{
+
 }
