@@ -16,5 +16,15 @@
     margin-right: 10px;
 }
 .text {
+<<<<<<< HEAD
     font-family: Arial, sans-serif; 
 }
+=======
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-image: url(imgs/pexels-jeshoots-com-147458-834892.jpg);
+}1
+>>>>>>> d438c2080240b16bc0ad5caf5ec3b65674267991
