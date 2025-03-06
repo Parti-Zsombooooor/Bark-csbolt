@@ -5,12 +5,12 @@ body{
     width: 100%;
     height: 60px;
     background-color: rgb(243, 243, 243);
-    position: fixed;
     border-bottom: 1px solid rgb(202, 202, 202);
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
+    
 }
 .ONvbarimg{
     width: 40px;
