@@ -2,3 +2,24 @@
     text-align: center;
     marg
 }
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 500px;
+    align-items: center;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.text {
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-image: url(imgs/pexels-jeshoots-com-147458-834892.jpg);
+}1
