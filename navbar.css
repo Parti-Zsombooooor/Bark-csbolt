@@ -4,7 +4,7 @@ body{
 .ONavbar{
     width: 100%;
     height: 60px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(243, 243, 243);
     position: fixed;
     border-bottom: 1px solid rgb(202, 202, 202);
     align-items: center;
@@ -12,11 +12,19 @@ body{
     padding-right: 30px;
     display: flex;
 }
-
-.navbarimg{
-    width: 50px;
-    height: 50px;
+.ONvbarimg{
+    width: 40px;
+    height: 40px;
     border-radius: 100px;
-    
-    
+}
+.ONavbarA{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: font-weight 0.1s;
+}
+.ONavbarA:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
