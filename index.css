@@ -13,11 +13,12 @@
     margin-top: 50px;
     overflow: hidden;
     border-radius: 15px;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.274));
 
 }
 .InfoBox{
     width: 300px;
-    background-color: rgb(228, 226, 226);
+    background-color: #f8f4da;
     height: 300px;
 
  
@@ -51,7 +52,21 @@
 
 
 @media only screen and (max-width: 720px) {
+    .GpsInfoBox{
+        width: 300px;
+        height: 500px;
+        display: block;
+    }
+    .listcim{
+        margin-top: 0px;
+    }
+
+    .InfoBox{
+        width: 300px;
+       
+        height: 200px;
     
-
-
+        padding-top: 35px;
+        
+    }
 }
