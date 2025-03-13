@@ -5,24 +5,26 @@ body{
 .ONavbar{
     width: 100%;
     height: 60px;
-    background-color: #f8f4da00;
+    background-color: #ffffff;
     border-bottom: 1px solid #bebca800;
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
+   
     
 }
 .ONvbarimg{
     width: 40px;
     height: 40px;
     border-radius: 100px;
-}
+}   
 .ONavbarA{
     color: black;
     margin-left: 10px;
     margin-right: 10px;
     transition: font-weight 0.1s;
+    text-decoration: none;
 }
 .ONavbarA:hover{
     color: black;
