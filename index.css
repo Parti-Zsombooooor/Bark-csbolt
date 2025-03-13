@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f2f0f1;
+}
 .title{
     text-align: center;
     margin-top: 30px;
@@ -19,7 +21,7 @@
 }
 .InfoBox{
     width: 300px;
-    background-color: #f8f4da;
+    background-color: #f3f3f3;
     height: 300px;
 
  
