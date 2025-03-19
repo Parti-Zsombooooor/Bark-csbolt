@@ -1,9 +1,9 @@
 
 .title{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.123);
-    
+
 }
 .GpsInfoBox{
     width: 600px;
@@ -13,13 +13,13 @@
     display: flex;
     margin-top: 50px;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.274));
 
 }
 .InfoBox{
     width: 300px;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     height: 300px;
 
  
@@ -49,9 +49,47 @@
     font-size: 18px;
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.123);
 }   
+.das{
+    width: 1170px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 90px;
+    border-radius: 7px;
 
+}
+.gomb{
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #ffbc0d;
+    border-radius: 3px;
+    color: #000000;
 
+    text-decoration: none;
 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    transition: background-color 0.2s;
+}
+
+.gomb:hover{
+    background-color: #c8920c;
+}
+.jobbra{
+    float: right;
+    height: 250px;
+}
+.tolo{
+    margin-bottom: 50px;
+}
+
+.tolofonnkevesebb {
+    margin-top: 50px;
+}
 @media only screen and (max-width: 720px) {
     .GpsInfoBox{
         width: 300px;
@@ -70,4 +108,28 @@
         padding-top: 35px;
         
     }
+}
+
+@media screen and (max-width: 1225px) {
+    .lines{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .das{
+
+        display: block;
+        width: 100%;
+        margin-right: 20px; 
+        margin-left: 20px;
+        
+    }
+
+    .jobbra{
+      margin-right: 40px;
+      
+    }
+ 
+
+
 }
