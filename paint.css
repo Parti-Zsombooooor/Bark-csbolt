@@ -30,43 +30,43 @@
 .paint1{
     width: 100%;
     height: 70px;
-    background-color: rgb(6, 6, 179);
+    background-color: rgb(2, 2, 163);
     border-radius: 0px 0px 17px 17px;
 }
 .paint2{
     width: 100%;
     height: 70px;
-    background-color: rgb(134, 213, 240);
+    background-color: rgb(116, 211, 255);
     border-radius: 0px 0px 17px 17px;
 }
 .paint3{
     width: 100%;
     height: 70px;
-    background-color: rgb(172, 3, 3);
+    background-color: rgb(180, 3, 3);
     border-radius: 0px 0px 17px 17px;
 }
 .paint4{
     width: 100%;
     height: 70px;
-    background-color:rgb(92, 2, 2) ;
+    background-color: rgba(79,0,0,1);
     border-radius: 0px 0px 17px 17px;
 }
 .paint5{
     width: 100%;
     height: 70px;
-    background-color:rgb(63, 28, 6);
+    background-color: rgb(73, 44, 7);
     border-radius: 0px 0px 17px 17px;
 }
 .paint6{
     width: 100%;
     height: 70px;
-    background-color:green;
+    background:  rgb(4, 85, 1) ;
     border-radius: 0px 0px 17px 17px;
 }
 .paint7{
     width: 100%;
     height: 70px;
-    background-color:rgb(255, 159, 76);
+    background:  rgb(255, 189, 66) ;
     border-radius: 0px 0px 17px 17px;
 }
 .paint8{
