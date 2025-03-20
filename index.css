@@ -1,17 +1,18 @@
 
 .title{
     text-align: center;
-    margin-top: 40px;
-    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.123);
+
+    text-shadow: 0px 1px 8px rgb(255, 255, 255);
     text-decoration: underline;
     text-decoration-color: #ffbc0d;
     text-decoration-thickness: 4px;
     text-underline-offset: 4px;
+    color: black;
 
 }
 
 .title2{
-    margin-top: 90px;
+    margin-top: 40px;
     margin-bottom: 40px; 
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.123);
     text-align: center;    
@@ -75,7 +76,6 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-
     border-radius: 7px;
 
 }
@@ -112,6 +112,23 @@
 .tolofonnkevesebb {
     margin-top: 50px;
 }
+
+
+.backimgdiv{
+
+    width: 100%;
+    height: 600px;
+    padding-top: 60px;
+    background-image: url("/imgs/backimg.jpg");
+    background-size: 100vw;
+}
+
+@media only screen and (max-width: 925px) {
+    .backimgdiv{
+        background-size: 925px;
+    }
+}
+
 @media only screen and (max-width: 720px) {
     .GpsInfoBox{
         width: 300px;
@@ -129,6 +146,9 @@
     
         padding-top: 35px;
         
+    }
+    .title2{
+        margin-top: 150px;  
     }
 }
 
