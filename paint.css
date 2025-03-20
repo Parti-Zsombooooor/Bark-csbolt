@@ -98,6 +98,9 @@
     z-index: -5;
 }
 
+
+
+
 @media only screen and (max-width: 925px) {
     .backimgdiv{
         background-size: 925px;
