@@ -123,6 +123,9 @@
     background-size: 100vw;
 }
 
+
+
+
 @media only screen and (max-width: 925px) {
     .backimgdiv{
         background-size: 925px;
