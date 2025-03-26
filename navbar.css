@@ -6,12 +6,13 @@ body{
 .ONavbar{
     width: 100%;
     height: 60px;
-    background-color: #ffffff;
+    background-color: #333;
     border-bottom: 1px solid #bebca800;
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
+   
    
     
 }
@@ -21,14 +22,14 @@ body{
     border-radius: 100px;
 }   
 .ONavbarA{
-    color: black;
+    color: white;
     margin-left: 10px;
     margin-right: 10px;
     transition: font-weight 0.1s;
     text-decoration: none;
 }
 .ONavbarA:hover{
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
