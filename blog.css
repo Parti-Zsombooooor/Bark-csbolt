@@ -27,6 +27,7 @@ body {
     flex-direction: row;
     width: 45%;
     height: 120px;
+    padding: 0;
 
 
 }
@@ -45,4 +46,10 @@ body {
 
 footer{
     margin-top: 200px;
+}
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
 }
