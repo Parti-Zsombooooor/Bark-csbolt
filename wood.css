@@ -73,3 +73,10 @@ footer{
     position: absolute;
     z-index: -5;
 }
+
+@media only screen and (max-width: 1188px) {
+    .backimgdiv{    
+        background-size: 1188px;
+    }
+}
+
